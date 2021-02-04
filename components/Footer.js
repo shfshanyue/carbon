@@ -13,28 +13,28 @@ const Footer = () => (
     <nav className="mt3">
       <Link href="/about" prefetch={false}>
         <a className="link" href="/about">
-          about
+          关于
         </a>
       </Link>
-      <a className="link" href="https://github.com/carbon-app/carbon">
-        source
+      <a className="link" href="https://github.com/shfshanyue/carbon">
+        源码
       </a>
-      <a className="link" href="/terms">
+      {/* <a className="link" href="/terms">
         terms
       </a>
       <a className="link" href="/privacy">
         privacy
-      </a>
-      <EmailSubscribe />
-      <a className="link" href="/offsets">
+      </a> */}
+      {/* <EmailSubscribe /> */}
+      {/* <a className="link" href="/offsets">
         offsets
-      </a>
+      </a> */}
       {/* <span className="new">New</span> */}
     </nav>
 
     <div className="mt2 mb2">
-      created by{' '}
-      <a className="author-link" href="https://twitter.com/carbon_app">
+      powerd by{' '}
+      <a className="author-link" href="https://github.com/carbon-app">
         @carbon_app
       </a>{' '}
       ¬
