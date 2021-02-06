@@ -11,14 +11,14 @@ const EmailSubscribe = dynamic(() => import('./EmailSubscribe'), {
 const Footer = () => (
   <footer role="contentinfo" className="mt3">
     <nav className="mt3">
-      <Link href="/about" prefetch={false}>
+      {/* <Link href="/about" prefetch={false}>
         <a className="link" href="/about">
           关于
         </a>
       </Link>
       <a className="link" href="https://github.com/shfshanyue/carbon">
         源码
-      </a>
+      </a> */}
       {/* <a className="link" href="/terms">
         terms
       </a>
